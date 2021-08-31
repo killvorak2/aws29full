@@ -1,0 +1,18 @@
+/*
+    Home
+*/
+.sliderTrackContainer--carousel-principal{
+    width: 800px;
+}
+
+.sliderLayoutContainer--carousel-produto{
+    justify-content: center;
+}
+
+.sliderTrackContainer--carousel-produto{
+    width: 80%;
+}
+
+.slideChildrenContainer--carousel-produto{
+    padding: 0 10px;
+}

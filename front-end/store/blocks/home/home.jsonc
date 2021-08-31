@@ -1,0 +1,38 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#row-slider-principal",
+      "rich-text#titulo-home",
+      "flex-layout.row#row-produtos",
+      "flex-layout.row#teste"
+     /*  "tab-layout#tab-menu-solucoes"    */
+    ]
+  },
+  "flex-layout.row#row-slider-principal": {
+    "props": {
+      "blockClass": "row-slider-principal"
+    },
+    "children": [
+      "slider-layout#slider-itens-promocao"
+    ]
+  },
+  "flex-layout.row#row-produtos":{
+    "props":{
+      "colSizing": "auto",
+      "blockClass": "row-produtos"
+    },
+    "children":[      
+      "rich-text#subtitulo-grupo-1",
+      "flex-layout.row#row-grupo-1",
+      "rich-text#subtitulo-grupo-2",
+      "flex-layout.row#row-grupo-2",
+      "rich-text#subtitulo-grupo-3",
+      "flex-layout.row#row-grupo-3"
+    ]
+  },
+  "flex-layout.row#teste":{
+    "children":[
+      "search-result-layout.customQuery#aurora"
+    ]
+  }
+}

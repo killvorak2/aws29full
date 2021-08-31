@@ -1,0 +1,35 @@
+{
+    "store.custom#about-us":{
+        "blocks":[
+            
+            "flex-layout.row#row-banner-sobre",
+            "flex-layout.row#row-container-principal-sobre"            
+        ]
+    },
+    "flex-layout.row#row-banner-sobre":{
+        "props":{            
+            "blockClass": "row-banner-sobre",
+            "fullWidth": "true"
+        },
+        "children":[
+            "rich-text#titulo-sobre"
+        ]
+    },
+    "flex-layout.row#row-container-principal-sobre":{
+        "props":{
+            "blockClass": "row-container-principal-sobre",
+            "fullWidth": "true",
+            "colSizing": "auto"
+        },
+        "children":[
+            "rich-text#text-principal-sobre",
+            "flex-layout.row#row-container-grupo-informacao-sobre" 
+        ]
+    },
+    "rich-text#text-principal-sobre":{
+        "props":{
+            "blockClass": "texto-principal-sobre",
+            "text": "Texo Principal Sobre"
+        }
+    }    
+}

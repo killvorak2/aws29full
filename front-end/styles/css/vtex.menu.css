@@ -1,0 +1,59 @@
+/*
+    Home
+*/
+.menuContainerNav--menu-header-desktop{
+    background-color: #232F3E;
+}
+
+.menuContainerNav--menu-header-mobile{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.menuContainer--menu-header-desktop{
+    padding: 0 0 0 30px;
+    justify-content: flex-start;    
+}
+
+.menuContainer--menu-header-mobile{   
+    flex-direction: column;
+}
+
+.styledLinkContainer--item-menu-header{
+    padding: 10px;      
+    margin: auto;
+}
+
+.menuContainer--menu-header-mobile .styledLinkContent--item-menu-header{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ffff;
+    color: #d5dbdb;
+}
+
+/*
+
+    Inicio Footer
+
+*/
+.menuContainer--menu-footer{
+    height: 100%;    
+    justify-content: center;
+}
+/* 
+    Header e Footer
+*/
+.menuItem--item-menu-footer .styledLinkContent, 
+.menuItem--item-menu-header .styledLinkContent{    
+    color: #ddd;
+}
+
+/*
+    Media Screen - Footer
+*/
+
+@media (max-width:390px){
+    .styledLinkContainer--item-menu-footer{    
+        width: 50%;
+        background-color: thistle;
+    }
+}

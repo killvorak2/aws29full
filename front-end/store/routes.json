@@ -1,0 +1,11 @@
+{
+    "store.custom#solucoes": {
+        "path": "/solucoes"
+    },
+    "store.custom#about-us": {
+        "path": "/about-us"
+    },
+    "store.custom#cadastro": {
+      "path": "/lead"
+    }
+}

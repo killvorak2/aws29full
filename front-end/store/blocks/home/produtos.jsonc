@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#row-grupo-1": {
+        "props": {
+            "blockClass": "row-grupo-1"
+        },
+        "children": [            
+            "slider-layout#slider-produtos-grupo-1"
+        ]
+    },
+    "flex-layout.row#row-grupo-2": {
+        "props": {
+            "blockClass": "row-grupo-2"
+        },
+        "children": [            
+            "slider-layout#slider-produtos-grupo-2"
+        ]
+    },
+    "flex-layout.row#row-grupo-3": {
+        "props": {
+            "blockClass": "row-grupo-3"
+        },
+        "children": [            
+            "slider-layout#slider-produtos-grupo-3"
+        ]
+    }
+}
+//

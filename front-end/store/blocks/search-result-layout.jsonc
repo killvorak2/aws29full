@@ -1,0 +1,46 @@
+{
+    "search-result-layout.customQuery#aurora": {
+        "blocks": [
+          "search-result-layout.desktop#desktopResultBody",
+          "search-result-layout.mobile#mobileResultBody",
+          "search-not-found-layout"
+        ],
+        "props": {
+          "querySchema": {
+            "queryField": "dynamo",
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "maxItemsPerRow": 2,
+            "mapField": "ft"
+          },
+          "preventRouteChange": true
+        }
+      },
+    "search-result-layout.desktop#desktopResultBody": {
+        "props": {
+            "blockClass": "resultDesktop"
+        },
+        "children": [
+            "flex-layout.row#content"
+        ]
+    },
+    "search-result-layout.mobile#mobileResultBody": {
+        "props": {
+            "blockClass": "resultMobile"
+        },
+        "children": [
+            "flex-layout.row#content"
+        ]
+    },
+    "flex-layout.row#content": {
+        "props": {
+            "marginTop": "3",
+            "marginBottom": "10"
+        },
+        "children": [
+            "search-content"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+     "social-networks#footer-social-network" : {
+        "props": {
+            "socialNetworks": [
+                {
+                    "name": "facebook",
+                    "url": "#"
+                },
+                {
+                    "name": "twitter",
+                    "url": "#"
+                },
+                {
+                    "name": "youtube",
+                    "url": "#"
+                }
+            ]
+        }
+    }
+}

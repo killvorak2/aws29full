@@ -1,0 +1,103 @@
+{
+    /*
+    
+        Inicio Flex Layout
+    
+    */
+    "flex-layout.row#row-container-grupo-informacao-sobre": {
+        "props": {
+            "blockClass": "row-container-grupo-informacao-sobre",
+            "fullWidth": "true",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.row#row-container-informacao-1-sobre",
+            "flex-layout.row#row-container-informacao-2-sobre",
+            "flex-layout.row#row-container-informacao-3-sobre"
+        ]
+    },
+    "flex-layout.row#row-container-informacao-1-sobre": {
+        "props": {
+            "blockClass": "row-container-informacao-sobre",  
+            "fullWidth": "true",
+            "colSizing": "auto"          
+        },
+        "children": [
+            "image#image-informacao-1",
+            "rich-text#texto-informacao-1"
+        ]
+    },
+    "flex-layout.row#row-container-informacao-2-sobre": {
+        "props": {
+            "blockClass": "row-container-variacao-informacao-sobre",
+            "fullWidth": "true",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#image-informacao-2",
+            "rich-text#texto-informacao-2"
+        ]
+    },
+    "flex-layout.row#row-container-informacao-3-sobre": {
+        "props": {
+            "blockClass": "row-container-informacao-sobre",
+            "fullWidth": "true",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#image-informacao-3",
+            "rich-text#texto-informacao-3"
+        ]
+    },
+    /*
+
+        Inicio Imagens
+
+    */
+    "image#image-informacao-1":{
+        "props":{
+            "blockClass": "imagem-informacao-sobre",
+            "src": "",
+            "alt": "Imagem Informacao",
+            "width": "300px",
+            "height": "280px"
+        }
+    },
+    "image#image-informacao-2":{
+        "props":{
+            "blockClass": "imagem-informacao-sobre",
+            "src": "",
+            "alt": "Imagem Informacao"
+        }
+    },
+    "image#image-informacao-3":{
+        "props":{
+            "blockClass": "imagem-informacao-sobre",
+            "src": "",
+            "alt": "Imagem Informacao"
+        }
+    },
+    /*
+    
+        Inicio Texto
+    
+    */
+    "rich-text#texto-informacao-1":{
+        "props":{
+            "blockClass": "texto-informacao-sobre",
+            "text": "Texto Informacao"
+        }
+    },
+    "rich-text#texto-informacao-2":{
+        "props":{
+            "blockClass": "texto-informacao-sobre",
+            "text": "Texto Informacao"
+        }
+    },
+    "rich-text#texto-informacao-3":{
+        "props":{
+            "blockClass": "texto-informacao-sobre",
+            "text": "Texto Informacao"
+        }
+    }
+}

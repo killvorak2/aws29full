@@ -1,0 +1,14 @@
+.container :global(.vtex-button) {  
+  min-width: 100px;
+  background-image: linear-gradient(180deg, #f67c1b 0, #e15500);
+}
+
+.container :global(.vtex-button):hover {
+  background-image: linear-gradient(180deg, #E67519 0, #CC4E00);
+}
+
+.label {
+  display: block;
+  color: white;
+  padding-left: 0;
+}

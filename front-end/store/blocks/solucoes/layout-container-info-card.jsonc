@@ -1,0 +1,232 @@
+{
+    /*
+    
+        Flex-layout
+    
+    */
+    "flex-layout.row#row-container-1-solucoes-info-card-1": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-1-info-card-1",
+            "info-card#card-1-solucoes-container-1"
+        ]
+    },
+    "flex-layout.row#row-container-1-solucoes-info-card-2": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-1-info-card-2",
+            "info-card#card-2-solucoes-container-1"
+        ]
+    },
+    "flex-layout.row#row-container-1-solucoes-info-card-3": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-1-info-card-3",
+            "info-card#card-3-solucoes-container-1"
+        ]
+    },
+    "flex-layout.row#row-container-1-solucoes-info-card-4": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-1-info-card-4",
+            "info-card#card-4-solucoes-container-1"
+        ]
+    },
+
+    "flex-layout.row#row-container-2-solucoes-info-card-1": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-2-info-card-1",
+            "info-card#card-1-solucoes-container-2"
+        ]
+    },
+    "flex-layout.row#row-container-2-solucoes-info-card-2": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-2-info-card-2",
+            "info-card#card-2-solucoes-container-2"
+        ]
+    },
+    "flex-layout.row#row-container-2-solucoes-info-card-3": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-2-info-card-3",
+            "info-card#card-3-solucoes-container-2"
+        ]
+    },
+    "flex-layout.row#row-container-2-solucoes-info-card-4": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-2-info-card-4",
+            "info-card#card-4-solucoes-container-2"
+        ]
+    },
+
+    "flex-layout.row#row-container-3-solucoes-info-card-1": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-3-info-card-1",
+            "info-card#card-1-solucoes-container-3"
+        ]
+    },
+    "flex-layout.row#row-container-3-solucoes-info-card-2": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-3-info-card-2",
+            "info-card#card-2-solucoes-container-3"
+        ]
+    },
+    "flex-layout.row#row-container-3-solucoes-info-card-3": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-3-info-card-3",
+            "info-card#card-3-solucoes-container-3"
+        ]
+    },
+    "flex-layout.row#row-container-3-solucoes-info-card-4": {
+        "props":{
+            "blockClass": "row-container-solucoes-info-card",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-solucoes-container-3-info-card-4",
+            "info-card#card-4-solucoes-container-3"
+        ]
+    },
+     /*
+    
+        Imagens
+    
+    */
+    "image#imagem-solucoes-container-1-info-card-1":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""            
+        }
+    },
+    "image#imagem-solucoes-container-1-info-card-2":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""         
+        }
+    },
+    "image#imagem-solucoes-container-1-info-card-3":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""         
+        }
+    },
+    "image#imagem-solucoes-container-1-info-card-4":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""         
+        }
+    },
+
+    "image#imagem-solucoes-container-2-info-card-1":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""         
+        }
+    },
+    "image#imagem-solucoes-container-2-info-card-2":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""         
+        }
+    },
+    "image#imagem-solucoes-container-2-info-card-3":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""       
+        }
+    },
+    "image#imagem-solucoes-container-2-info-card-4":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""           
+        }
+    },
+
+    "image#imagem-solucoes-container-3-info-card-1":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""            
+        }
+    },
+    "image#imagem-solucoes-container-3-info-card-2":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""            
+        }
+    },
+    "image#imagem-solucoes-container-3-info-card-3":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""           
+        }
+    },
+    "image#imagem-solucoes-container-3-info-card-4":{
+        "props":{
+            "blockClass": "imagem-solucoes-container-info-card",
+            "alt": "Imagem Info Card",
+            "src": ""            
+        }
+    }
+}

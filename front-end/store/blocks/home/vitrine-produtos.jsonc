@@ -1,0 +1,163 @@
+{
+     //Inicio Produtos Computacao
+    "flex-layout.row#row-card-produto-a1":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-a1",
+            "info-card#card-produto-computacao-1"
+        ]
+    },
+    "image#imagem-card-a1":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },    
+    "flex-layout.row#row-card-produto-a2":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-a2",
+            "info-card#card-produto-computacao-2"
+        ]
+    },
+    "image#imagem-card-a2":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },
+    
+    "flex-layout.row#row-card-produto-a3":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-a3",
+            "info-card#card-produto-computacao-3"
+        ]
+    },
+    "image#imagem-card-a3":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },    
+
+     //Inicio Produtos Banco de Dados
+     "flex-layout.row#row-card-produto-b1":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-b1",
+            "info-card#card-produto-banco-dados-1"
+        ]
+    },
+    "image#imagem-card-b1":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },   
+    "flex-layout.row#row-card-produto-b2":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-b2",
+            "info-card#card-produto-banco-dados-2"
+        ]
+    },
+    "image#imagem-card-b2":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },    
+    "flex-layout.row#row-card-produto-b3":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-b3",
+            "info-card#card-produto-banco-dados-3"
+        ]
+    },
+    "image#imagem-card-b3":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },   
+
+
+      ///Inicio Produtos Analise
+      "flex-layout.row#row-card-produto-c1":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-c1",
+            "info-card#card-produto-analise-1"
+        ]
+    },
+    "image#imagem-card-c1":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },    
+    "flex-layout.row#row-card-produto-c2":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-c2",
+            "info-card#card-produto-analise-2"
+        ]
+    },
+    "image#imagem-card-c2":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    },
+    
+    "flex-layout.row#row-card-produto-c3":{
+        "props":{
+            "blockClass": "row-card-produto",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#imagem-card-c3",
+            "info-card#card-produto-analise-3"
+        ]
+    },
+    "image#imagem-card-c3":{
+        "props":{
+            "blockClass": "imagem-card",
+            "src": "https://d1.awsstatic.com/webteam/homepage/solutions/60-analytics.27a6ebec1a9e415ef6cea6ec2c9f7761c8aa3ea6.png"            
+        }
+    }    
+}

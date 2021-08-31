@@ -1,0 +1,10 @@
+query GetAllLeads {
+  leads {
+    nome
+    email
+    telefone
+    tipo
+    created_at
+    updated_at
+  }
+}

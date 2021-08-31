@@ -1,0 +1,135 @@
+/*
+
+    Inicio All
+
+*/
+
+.container{
+    font-family: "AmazonEmber_Lt";
+}
+
+/*
+
+    Inicio Home
+
+*/
+.container--titulo-home {
+    justify-content: center;
+}
+
+.wrapper--titulo-home .paragraph {
+    font-size: 60px;
+    color: #232f3e;
+}
+
+.container--subtitulo-produtos {
+    padding-left: 10px;
+}
+
+/*
+
+   Inicio Footer
+
+*/
+.container--footerTexto {
+    max-width: 750px;
+    margin: 20px;
+}
+
+.paragraph--footerTexto {
+    text-align: justify;
+    color: #ddd;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.wrapper--footerTexto {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+/*
+
+  Inicio Solucoes 
+
+*/
+.container--titulo-solucoes-1 {
+    background-image: url("https://d1.awsstatic.com/webteam/category-pages/Analytics/Imageheader_Data-Analytics.f853a26c966ebccc1116a1405bca1e146d6a4c91.png");
+}
+
+.wrapper--titulo-solucoes-1,
+.wrapper--titulo-solucoes-2,
+.wrapper--titulo-solucoes-3 {
+    margin-left: 40px;
+    background-color: #232f3e;
+    color: #ffff;
+    position: relative;
+    bottom: -10px;
+    padding: 20px;
+}
+
+.wrapper--text-principal-solucoes-container {
+    margin-right: 50px;
+}
+
+.wrapper--text-secundario-solucoes-container {
+    width: max-content;
+    margin-right: 0;
+}
+
+.container--titulo-solucoes-2 {
+    background-image: url("https://d1.awsstatic.com/backup_banner_AWS.865565f42a6479dfff8a9643329bcdd054e1c667.png");
+}
+
+.container--titulo-solucoes-3 {
+    background-image: url("https://d1.awsstatic.com/product-marketing/Serverless/ImgHead_Serverless-Category-Page2.745f7a42498392a54f2ae062f310d220b0ff1645.jpg");
+}
+
+.container--titulo-solucoes-1,
+.container--titulo-solucoes-2,
+.container--titulo-solucoes-3 {
+    background-size: cover;
+    background-position-y: center;
+}
+/*
+
+    Inicio Sobre
+
+*/
+.container--titulo-sobre{
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30,40,50,0.93);
+    color: #ffff;
+}
+
+.container--texto-principal-sobre{
+    margin: 0 40px;
+    color: #ffff;
+}
+
+.wrapper----texto-principal-sobre{
+    width: 100%;
+}
+
+.wrapper--texto-informacao-sobre{
+    width: 500px;
+    color: #ffff;
+}
+
+
+/*
+
+    Inicio Media Solucoes
+
+*/
+@media (max-width:1030px) {
+
+    .container--titulo-solucoes-1,
+    .container--titulo-solucoes-2,
+    .container--titulo-solucoes-3 {
+        justify-content: flex-end;        
+    }
+}

@@ -1,0 +1,97 @@
+{
+    /* Inicio Slider Layout Produtos  */
+    "slider-layout#slider-produtos-grupo-1": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel-produto"
+          },
+          "children": [
+            "flex-layout.row#row-card-produto-a1",
+            "flex-layout.row#row-card-produto-a2",
+            "flex-layout.row#row-card-produto-a3"
+          ]
+    },
+
+    //Produtos Banco de Dados
+    "slider-layout#slider-produtos-grupo-2": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel-produto"
+      },
+      "children": [
+        "flex-layout.row#row-card-produto-b1",
+        "flex-layout.row#row-card-produto-b2",
+        "flex-layout.row#row-card-produto-b3"
+      ]
+    },
+
+    //Produtos Analise
+    "slider-layout#slider-produtos-grupo-3": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel-produto"
+      },
+      "children": [
+        "flex-layout.row#row-card-produto-c1",
+        "flex-layout.row#row-card-produto-c2",
+        "flex-layout.row#row-card-produto-c3"
+      ]
+    },
+    
+
+    /* Inicio Slider Layout Promoções  */
+    "slider-layout#slider-itens-promocao": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel-principal"
+        },
+        "children": [
+          "image#promocao-1",
+          "image#promocao-2",
+          "image#promocao-3"
+        ]
+      },
+      //Imagens
+      "image#promocao-1": {
+        "props": {
+          "src": "https://source.unsplash.com/random/800x301",
+          "blockClass": "imagem_slider-layout"      
+        }
+      },
+      "image#promocao-2": {
+        "props": {
+            "src": "https://source.unsplash.com/random/800x300",
+          "blockClass": "imagem_slider-layout"
+        }
+      },
+      "image#promocao-3": {
+        "props": {
+            "src": "https://source.unsplash.com/random/800x302",
+          "blockClass": "imagem_slider-layout"
+        }
+      }    
+}

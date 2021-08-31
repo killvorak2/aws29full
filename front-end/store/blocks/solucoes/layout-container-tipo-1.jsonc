@@ -1,0 +1,82 @@
+{
+    /*
+    
+        Flex-layout
+    
+    */
+    "flex-layout.row#row-solucoes-1-container-1": {
+        "props": {
+            "blockClass": "row-solucoes-container-1",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#text-principal-solucoes-container-1",
+            "rich-text#text-secundario-solucoes-container-1"
+        ]
+    },
+    "flex-layout.row#row-solucoes-2-container-1": {
+        "props": {
+            "blockClass": "row-solucoes-container-1",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#text-principal-solucoes-container-2",
+            "rich-text#text-secundario-solucoes-container-2"
+        ]
+    },
+    "flex-layout.row#row-solucoes-3-container-1": {
+        "props": {
+            "blockClass": "row-solucoes-container-1",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#text-principal-solucoes-container-3",
+            "rich-text#text-secundario-solucoes-container-3"
+        ]
+    },
+    /*
+    
+        Textos
+
+    */
+    "rich-text#text-principal-solucoes-container-1": {
+        "props": {
+            "blockClass": "text-principal-solucoes-container",
+            "text": "Texto Principal"
+        }
+    },
+    "rich-text#text-principal-solucoes-container-2": {
+        "props": {
+            "blockClass": "text-principal-solucoes-container",
+            "text": "Texto Principal"
+        }
+    },
+    "rich-text#text-principal-solucoes-container-3": {
+        "props": {
+            "blockClass": "text-principal-solucoes-container",
+            "text": "Texto Principal"
+        }
+    },
+
+    "rich-text#text-secundario-solucoes-container-1": {
+        "props": {
+            "blockClass": "text-secundario-solucoes-container",
+            "text": "Texto Secundario"
+        }
+    },
+    "rich-text#text-secundario-solucoes-container-2": {
+        "props": {
+            "blockClass": "text-secundario-solucoes-container",
+            "text": "Texto Secundario"
+        }
+    },
+    "rich-text#text-secundario-solucoes-container-3": {
+        "props": {
+            "blockClass": "text-secundario-solucoes-container",
+            "text": "Texto Secundario"
+        }
+    }
+}

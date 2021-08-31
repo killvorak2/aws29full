@@ -1,0 +1,95 @@
+/*
+
+    Header
+
+*/
+.logoContainer--logo-header{
+    padding: 10px;
+    
+}
+
+.searchBarContainer{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.searchBarIcon{
+    padding: 11px 5px;   
+    background-color: #E76D0C;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border-radius: 2px;
+}
+.searchBarIcon:hover{
+    background-color: #D1640A;
+}
+/*
+
+    Home
+
+*/
+.imageElement--imagem-card{
+    max-width: 60px;
+}
+
+.infoCardHeadline--card-produto{
+    margin-top: 0;
+    font-size: 1.5em;   
+    color: #007eb9; 
+}
+
+.infoCardSubhead--card-produto{
+    font-size: 0.9em;
+}
+
+
+.infoCardContainer--card-produto,
+.infoCardTextContainer--card-solucoes{
+    border: 0;
+    background-color: #FFFFFF;
+}
+
+.infoCardContainer :global(.vtex-button){
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #007eb9; 
+}
+
+.infoCardContainer :global(.vtex-button):hover{    
+    color: #D1640A; 
+}
+
+.infoCardTextContainer--card-produto{
+    width: 90%;
+    margin: 10px;
+    align-items: center;
+}
+/*
+
+    Solucoes
+
+*/
+.imageElement--imagem-solucoes-container-info-card{
+    max-width: 390px;
+    max-height: 225px;
+}
+
+.infoCardTextContainer--card-solucoes{
+    width: 100%;
+    margin: 10px;
+}
+
+.infoCardContainer--card-solucoes{
+    border: 0;
+}
+/*
+
+    Inicio Sobre
+
+*/
+.imageElement--imagem-informacao-sobre{
+    max-width: 400px;
+    max-height: 200px;
+}

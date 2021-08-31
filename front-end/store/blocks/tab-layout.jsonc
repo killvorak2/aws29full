@@ -1,0 +1,80 @@
+{
+    /*
+        Inicio Tab Solucoes
+    */
+    "tab-layout#tab-menu-solucoes": {
+        "props": {
+            "blockClass": "tab-menu-solucoes"
+        },
+        "children": [
+            "tab-list#tab-list-solucoes",
+            "tab-content#tab-content-solucoes"
+        ]
+    },
+    "tab-list#tab-list-solucoes": {
+        "children": [
+            "tab-list.item#tab-list-item-1",
+            "tab-list.item#tab-list-item-2",
+            "tab-list.item#tab-list-item-3"
+        ]
+    },
+    "tab-content#tab-content-solucoes": {
+        "props": {
+            "blockClass": "tab-content-solucoes"
+        },
+        "children": [
+            "tab-content.item#tab-content-item-1",
+            "tab-content.item#tab-content-item-2",
+            "tab-content.item#tab-content-item-3"
+        ]
+    },
+    "tab-list.item#tab-list-item-1": {
+        "props": {
+            "tabId": "tab-item-1",
+            "label": "Menu 1",
+            "defaultActiveTab": "true"
+        }
+    },
+    "tab-list.item#tab-list-item-2": {
+        "props": {
+            "tabId": "tab-item-2",
+            "label": "Menu 2"
+        }
+    },
+    "tab-list.item#tab-list-item-3": {
+        "props": {
+            "tabId": "tab-item-3",
+            "label": "Menu 3"
+        }
+    },
+    "tab-content.item#tab-content-item-1": {
+        "props": {
+            "tabId": "tab-item-1"
+        },
+        "children": [
+            "rich-text#titulo-tab-solucoes-1",
+            "flex-layout.row#row-solucoes-1-container-1",
+            "flex-layout.row#row-solucoes-1-container-2"
+        ]
+    },
+    "tab-content.item#tab-content-item-2": {
+        "props": {
+            "tabId": "tab-item-2"
+        },
+        "children": [
+            "rich-text#titulo-tab-solucoes-2",
+            "flex-layout.row#row-solucoes-2-container-1",
+            "flex-layout.row#row-solucoes-2-container-2"
+        ]
+    },
+    "tab-content.item#tab-content-item-3": {
+        "props": {
+            "tabId": "tab-item-3"
+        },
+        "children": [
+            "rich-text#titulo-tab-solucoes-3",
+            "flex-layout.row#row-solucoes-3-container-1",
+            "flex-layout.row#row-solucoes-3-container-2"
+        ]
+    }
+}

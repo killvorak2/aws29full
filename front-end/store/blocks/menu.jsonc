@@ -1,0 +1,132 @@
+{
+  // Inicio Menu Header 
+  "vtex.menu@2.x:menu#menu-header-desktop": {
+    "props": {
+      "blockClass": "menu-header-desktop"
+    },
+    "children": [
+      "menu-item#item-menu-header-1",
+      "menu-item#item-menu-header-2",
+      "menu-item#item-menu-header-3"
+    ]
+  },
+  //Menu Mobile
+  "vtex.menu@2.x:menu#menu-header-mobile": {
+    "props": {
+      "blockClass": "menu-header-mobile"
+    },
+    "children": [
+      "menu-item#item-menu-header-1",
+      "menu-item#item-menu-header-2",
+      "menu-item#item-menu-header-3"
+    ]
+  },
+  //Itens
+  "menu-item#item-menu-header-1": {
+    "props": {
+      "id": "menu-header-1",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "item-menu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-header-1",
+        "text": "Menu 1"
+      }
+    }
+  },
+  "menu-item#item-menu-header-2": {
+    "props": {
+      "id": "menu-header-2",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "item-menu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-header-2",
+        "text": "Menu 2"
+      }
+    }
+  },
+  "menu-item#item-menu-header-3": {
+    "props": {
+      "id": "menu-header-3",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "item-menu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-header-3",
+        "text": "Menu 3"
+      }
+    }
+  },
+
+  
+  //Inicio Menu Footer
+  "vtex.menu@2.x:menu#menu-footer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#item-footer-1",
+      "menu-item#item-footer-2",
+      "menu-item#item-footer-3"
+    ]
+  },
+  "menu-item#item-footer-1": {
+    "props": {
+      "id": "menu-footer-1",
+      "blockClass": "item-menu-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-footer-1",
+        "text": "Menu 1"
+      }
+    }
+  },
+  "menu-item#item-footer-2": {
+    "props": {
+      "id": "menu-footer-2",
+      "blockClass": "item-menu-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-footer-2",
+        "text": "Menu 2"
+      }
+    }
+  },
+  "menu-item#item-footer-3": {
+    "props": {
+      "id": "menu-footer-3",
+      "blockClass": "item-menu-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "menu-footer-3",
+        "text": "Menu 3"
+      }
+    }
+  }
+}

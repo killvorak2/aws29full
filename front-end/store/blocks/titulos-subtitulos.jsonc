@@ -1,0 +1,84 @@
+{
+     /*
+
+    Inicio Home 
+    
+    */
+    "rich-text#titulo-home": {
+        "props": {
+            "blockClass": "titulo-home",
+            "text": "Soluções para"
+        }
+    },
+    "rich-text#subtitulo-grupo-1": {
+        "props": {
+            "blockClass": "subtitulo-produtos",
+            "text": "## Titulo Grupo 1"
+        }
+    },
+    "rich-text#subtitulo-grupo-2": {
+        "props": {
+            "blockClass": "subtitulo-produtos",
+            "text": "## Titulo Grupo 2"
+        }
+    },
+    "rich-text#subtitulo-grupo-3": {
+        "props": {
+            "blockClass": "subtitulo-produtos",
+            "text": "## Titulo Grupo 3"
+        }
+    },
+    /*
+
+    Inicio Solucoes 
+
+    */
+    "rich-text#titulo-tab-solucoes-1": {
+        "props": {
+            "blockClass": "titulo-solucoes-1",
+            "text": "## Titulo Solucoes 1"
+        }
+    },
+    "rich-text#titulo-tab-solucoes-2": {
+        "props": {
+            "blockClass": "titulo-solucoes-2",
+            "text": "## Titulo Solucoes 2"
+        }
+    },
+    "rich-text#titulo-tab-solucoes-3": {
+        "props": {
+            "blockClass": "titulo-solucoes-3",
+            "text": "## Titulo Solucoes 3"
+        }
+    },
+
+    "rich-text#subtitulo-tab-solucoes-1": {
+        "props": {
+            "blockClass": "subtitulo-solucoes",
+            "text": "## Titulo Solucoes 3"
+        }
+    },
+    "rich-text#subtitulo-tab-solucoes-2": {
+        "props": {
+            "blockClass": "subtitulo-solucoes",
+            "text": "## Titulo Solucoes 3"
+        }
+    },
+    "rich-text#subtitulo-tab-solucoes-3": {
+        "props": {
+            "blockClass": "subtitulo-solucoes",
+            "text": "## Titulo Solucoes 3"
+        }
+    },
+    /*
+    
+        Sobre
+
+    */
+    "rich-text#titulo-sobre":{
+        "props":{
+            "blockClass": "titulo-sobre",
+            "text": "Titulo Sobre"
+        }
+    }
+}

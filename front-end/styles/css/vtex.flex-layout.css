@@ -1,0 +1,155 @@
+/*
+    Inicio Header
+*/
+.flexRow--row-header-desktop {
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px 0 20px;
+    justify-content: space-between;
+}
+
+.flexRow--row-header-desktop,
+.flexRow--row-header-mobile {
+    background-color: #232F3E;
+}
+
+
+
+/*
+    Inicio Home
+*/
+.flexRow--row-slider-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--row-produtos {
+    flex-direction: column;
+    background-color: #f2f4f4;
+}
+
+.flexRow--row-card-produto {
+    border-top: 5px solid #232F3E;
+}
+
+.flexRowContent--row-card-produto {
+    flex-direction: column;
+}
+
+.flexRowContent--row-card-produto .stretchChildrenWidth {
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+/* 
+
+    Inicio Footer 
+
+*/
+.flexRowContent--row-footer-desktop {
+    padding: 20px 30px;
+}
+
+.flexRowContent--row-footer-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px
+}
+
+.flexRowContent--row-footer-desktop,
+.flexRowContent--row-footer-mobile {
+    background-color: #232F3E;
+}
+
+.flexRow--row-header-desktop {
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px 0 20px;
+    justify-content: space-between;
+    background-color: #232F3E;
+}
+
+.flexColChild--col-social-network {
+    display: flex;
+    align-items: center;
+}
+/*
+
+    Inicio Solucoes 
+
+*/
+.flexRowContent--row-solucoes-container-1 {
+    margin-bottom: 30px;
+    padding: 10px 40px 0 40px;
+}
+
+.flexRowContent--row-solucoes-container-1,
+.flexRowContent--row-solucoes-container-2 {
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.flexRowContent--row-container-solucoes-info-card {
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid #d5dbdb;
+}
+/*
+
+    Inicio Sobre
+
+*/
+.flexRowContent--row-banner-sobre{
+    height: 250px;
+    background-image: url("https://d1.awsstatic.com/What%20is%20AWS/WIAWS-FPO_ImgHead_Cloud-Building.ad24ecf8fd688181e4e15fd788249fe00a44a323.jpg");
+    background-size: cover;
+    align-items: flex-end;
+}
+.flexRowContent--row-container-principal-sobre{
+    background-color: #1E2832;
+}
+
+.flexRowContent--row-container-principal-sobre,
+.flexRowContent--row-container-grupo-informacao-sobre{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexRow--row-container-informacao-sobre{    
+    border: 2px solid #d5dbdb;    
+}
+
+.flexRow--row-container-informacao-sobre,
+.flexRow--row-container-variacao-informacao-sobre{
+    margin: 20px 50px 0 50px;
+    padding: 50px;
+}
+
+.flexRowContent--row-container-informacao-sobre .stretchChildrenWidth,
+.flexRowContent--row-container-variacao-informacao-sobre .stretchChildrenWidth{
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--row-container-informacao-sobre,
+.flexRowContent--row-container-variacao-informacao-sobre {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*
+    Media Screen - Footer  
+*/
+@media (max-width:1030px) {
+    .flexRowContent--row-footer-mobile {
+        justify-content: space-around;
+    }
+}
+/*
+    Media Screen - Solucoes
+*/
+@media (max-width:1030px) {
+    .flexRowContent--row-container-solucoes-info-card{
+        margin: 20px auto;
+    }
+}
